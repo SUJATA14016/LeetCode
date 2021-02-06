@@ -11,7 +11,7 @@
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
-        ListNode* t=head;
+         ListNode* t=head;
         int count=0;
         while(t!=NULL){
             count++;
