@@ -1,12 +1,12 @@
 class Solution {
 public:
     int reverse(int x) {
-        int y;
+        
       long rev=0;
         while(x!=0)
         {
-            y=x%10;
-            rev=rev*10+y;
+           
+            rev=rev*10+(x%10);
             x=x/10;
             
         }
